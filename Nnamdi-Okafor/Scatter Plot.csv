@@ -1,0 +1,775 @@
+﻿Continent,Country,Year,Happiness_Score,GDP,Life_Expectancy
+Africa,Algeria,2015,5.61,1.08,0.29
+Africa,Algeria,2016,6.36,1.05,0.62
+Africa,Algeria,2017,5.87,1.09,0.62
+Africa,Algeria,2018,5.30,0.98,0.69
+Africa,Algeria,2019,5.21,1.00,0.79
+Africa,Angola,2015,4.03,0.86,0.10
+Africa,Angola,2016,3.87,0.85,0.05
+Africa,Angola,2017,3.80,0.86,0.05
+Africa,Angola,2018,3.80,0.73,0.27
+Africa,Benin,2015,3.34,0.35,0.48
+Africa,Benin,2016,3.48,0.39,0.21
+Africa,Benin,2017,3.66,0.43,0.21
+Africa,Benin,2018,4.14,0.38,0.24
+Africa,Benin,2019,4.88,0.39,0.40
+Africa,Botswana,2015,4.33,1.10,0.49
+Africa,Botswana,2016,3.97,1.09,0.35
+Africa,Botswana,2017,3.77,1.12,0.34
+Africa,Botswana,2018,3.59,1.02,0.42
+Africa,Botswana,2019,3.49,1.04,0.54
+Africa,Burkina Faso,2015,3.59,0.85,0.39
+Africa,Burkina Faso,2016,3.74,0.32,0.21
+Africa,Burkina Faso,2017,4.03,0.35,0.22
+Africa,Burkina Faso,2018,4.42,0.31,0.25
+Africa,Burkina Faso,2019,4.59,0.33,0.38
+Africa,Burundi,2015,2.91,0.42,0.12
+Africa,Burundi,2016,2.91,0.07,0.16
+Africa,Burundi,2017,2.90,0.09,0.15
+Africa,Burundi,2018,2.91,0.09,0.15
+Africa,Burundi,2019,3.78,0.05,0.38
+Africa,Cameroon,2015,4.25,0.89,0.49
+Africa,Cameroon,2016,4.51,0.52,0.13
+Africa,Cameroon,2017,4.70,0.56,0.13
+Africa,Cameroon,2018,4.98,0.54,0.18
+Africa,Cameroon,2019,5.04,0.55,0.33
+Africa,Central African Republic,2015,3.68,0.00,0.49
+Africa,Central African Republic,2017,2.69,0.00,0.02
+Africa,Central African Republic,2018,3.08,0.02,0.01
+Africa,Central African Republic,2019,3.08,0.03,0.11
+Africa,Chad,2015,3.67,0.76,0.24
+Africa,Chad,2016,3.76,0.42,0.04
+Africa,Chad,2017,3.94,0.44,0.04
+Africa,Chad,2018,4.30,0.36,0.05
+Africa,Chad,2019,4.35,0.35,0.19
+Africa,Comoros,2015,3.96,0.79,0.23
+Africa,Comoros,2016,3.96,0.28,0.30
+Africa,Comoros,2019,3.97,0.27,0.51
+Africa,Congo (Brazzaville),2015,3.99,0.66,0.41
+Africa,Congo (Brazzaville),2016,4.24,0.77,0.28
+Africa,Congo (Brazzaville),2017,4.29,0.81,0.29
+Africa,Congo (Brazzaville),2018,4.56,0.68,0.34
+Africa,Congo (Brazzaville),2019,4.81,0.67,0.51
+Africa,Congo (Kinshasa),2015,4.52,1.00,0.23
+Africa,Congo (Kinshasa),2016,4.27,0.06,0.19
+Africa,Congo (Kinshasa),2017,4.28,0.09,0.19
+Africa,Congo (Kinshasa),2018,4.25,0.07,0.20
+Africa,Congo (Kinshasa),2019,4.42,0.09,0.36
+Africa,Djibouti,2015,4.37,0.59,0.46
+Africa,Egypt,2015,4.19,0.75,0.17
+Africa,Egypt,2016,4.36,0.95,0.52
+Africa,Egypt,2017,4.74,0.99,0.52
+Africa,Egypt,2018,4.42,0.89,0.55
+Africa,Egypt,2019,4.17,0.91,0.64
+Africa,Ethiopia,2015,4.51,0.60,0.43
+Africa,Ethiopia,2016,4.51,0.29,0.35
+Africa,Ethiopia,2017,4.46,0.34,0.35
+Africa,Ethiopia,2018,4.35,0.31,0.39
+Africa,Ethiopia,2019,4.29,0.34,0.53
+Africa,Gabon,2015,3.90,0.91,0.32
+Africa,Gabon,2016,4.12,1.16,0.35
+Africa,Gabon,2017,4.47,1.20,0.36
+Africa,Gabon,2018,4.76,1.04,0.40
+Africa,Gabon,2019,4.80,1.06,0.57
+Africa,Gambia,2019,4.52,0.31,0.43
+Africa,Ghana,2015,4.63,0.68,0.42
+Africa,Ghana,2016,4.28,0.63,0.30
+Africa,Ghana,2017,4.12,0.67,0.30
+Africa,Ghana,2018,4.66,0.59,0.34
+Africa,Ghana,2019,5.00,0.61,0.49
+Africa,Guinea,2015,3.66,0.46,0.38
+Africa,Guinea,2016,3.61,0.22,0.19
+Africa,Guinea,2017,3.51,0.24,0.19
+Africa,Guinea,2018,3.96,0.34,0.21
+Africa,Guinea,2019,4.53,0.38,0.38
+Africa,Ivory Coast,2015,3.66,0.77,0.47
+Africa,Ivory Coast,2016,3.92,0.56,0.04
+Africa,Ivory Coast,2017,4.18,0.60,0.05
+Africa,Ivory Coast,2018,4.67,0.54,0.08
+Africa,Ivory Coast,2019,4.94,0.57,0.23
+Africa,Kenya,2015,4.42,1.00,0.42
+Africa,Kenya,2016,4.36,0.52,0.30
+Africa,Kenya,2017,4.55,0.56,0.31
+Africa,Kenya,2018,4.41,0.49,0.45
+Africa,Kenya,2019,4.51,0.51,0.58
+Africa,Lesotho,2015,4.90,1.04,0.32
+Africa,Lesotho,2017,3.81,0.52,0.00
+Africa,Lesotho,2018,3.81,0.47,0.08
+Africa,Lesotho,2019,3.80,0.49,0.17
+Africa,Liberia,2015,4.57,0.79,0.29
+Africa,Liberia,2016,3.62,0.11,0.23
+Africa,Liberia,2017,3.53,0.12,0.23
+Africa,Liberia,2018,3.50,0.08,0.27
+Africa,Liberia,2019,3.98,0.07,0.44
+Africa,Libya,2015,5.75,1.12,0.42
+Africa,Libya,2016,5.62,1.07,0.52
+Africa,Libya,2017,5.53,1.10,0.52
+Africa,Libya,2018,5.57,0.99,0.55
+Africa,Libya,2019,5.53,1.04,0.67
+Africa,Madagascar,2015,3.68,0.67,0.19
+Africa,Madagascar,2016,3.70,0.28,0.37
+Africa,Madagascar,2017,3.64,0.31,0.38
+Africa,Madagascar,2018,3.77,0.26,0.40
+Africa,Madagascar,2019,3.93,0.27,0.56
+Africa,Malawi,2015,4.29,0.41,0.43
+Africa,Malawi,2016,4.16,0.09,0.29
+Africa,Malawi,2017,3.97,0.23,0.32
+Africa,Malawi,2018,3.59,0.19,0.31
+Africa,Malawi,2019,3.41,0.19,0.50
+Africa,Mali,2015,4.00,1.04,0.39
+Africa,Mali,2016,4.07,0.31,0.16
+Africa,Mali,2017,4.19,0.48,0.17
+Africa,Mali,2018,4.45,0.37,0.15
+Africa,Mali,2019,4.39,0.39,0.31
+Africa,Mauritania,2015,4.44,0.87,0.24
+Africa,Mauritania,2016,4.20,0.61,0.29
+Africa,Mauritania,2017,4.29,0.65,0.29
+Africa,Mauritania,2018,4.36,0.56,0.29
+Africa,Mauritania,2019,4.49,0.57,0.49
+Africa,Mauritius,2015,5.48,0.99,0.56
+Africa,Mauritius,2016,5.65,1.14,0.66
+Africa,Mauritius,2017,5.63,1.19,0.64
+Africa,Mauritius,2018,5.89,1.09,0.68
+Africa,Mauritius,2019,5.89,1.12,0.80
+Africa,Morocco,2015,5.01,0.64,0.42
+Africa,Morocco,2016,5.15,0.84,0.59
+Africa,Morocco,2017,5.24,0.88,0.60
+Africa,Morocco,2018,5.25,0.78,0.67
+Africa,Morocco,2019,5.21,0.80,0.78
+Africa,Mozambique,2015,4.97,1.03,0.34
+Africa,Mozambique,2017,4.55,0.23,0.11
+Africa,Mozambique,2018,4.42,0.20,0.17
+Africa,Mozambique,2019,4.47,0.20,0.39
+Africa,Namibia,2016,4.57,0.93,0.35
+Africa,Namibia,2017,4.57,0.96,0.34
+Africa,Namibia,2018,4.44,0.87,0.37
+Africa,Namibia,2019,4.64,0.88,0.48
+Africa,Niger,2015,3.85,0.77,0.48
+Africa,Niger,2016,3.86,0.13,0.26
+Africa,Niger,2017,4.03,0.16,0.27
+Africa,Niger,2018,4.17,0.13,0.22
+Africa,Niger,2019,4.63,0.14,0.37
+Africa,Nigeria,2015,5.27,0.90,0.34
+Africa,Nigeria,2016,4.88,0.75,0.05
+Africa,Nigeria,2017,5.07,0.78,0.06
+Africa,Nigeria,2018,5.16,0.69,0.05
+Africa,Nigeria,2019,5.27,0.70,0.25
+Africa,Rwanda,2015,3.47,0.77,0.59
+Africa,Rwanda,2016,3.52,0.33,0.32
+Africa,Rwanda,2017,3.47,0.37,0.33
+Africa,Rwanda,2018,3.41,0.33,0.40
+Africa,Rwanda,2019,3.33,0.36,0.61
+Africa,Senegal,2015,3.90,0.98,0.37
+Africa,Senegal,2016,4.22,0.44,0.40
+Africa,Senegal,2017,4.53,0.48,0.41
+Africa,Senegal,2018,4.63,0.43,0.43
+Africa,Senegal,2019,4.68,0.45,0.57
+Africa,Sierra Leone,2015,4.51,0.96,0.41
+Africa,Sierra Leone,2016,4.64,0.36,0.00
+Africa,Sierra Leone,2017,4.71,0.37,0.01
+Africa,Sierra Leone,2018,4.57,0.26,0.00
+Africa,Sierra Leone,2019,4.37,0.27,0.24
+Africa,Somalia,2016,5.44,0.00,0.11
+Africa,Somalia,2017,5.15,0.02,0.11
+Africa,Somalia,2018,4.98,0.00,0.12
+Africa,Somalia,2019,4.67,0.00,0.27
+Africa,South Africa,2015,4.64,1.18,0.33
+Africa,South Africa,2016,4.46,1.02,0.19
+Africa,South Africa,2017,4.83,1.05,0.19
+Africa,South Africa,2018,4.72,0.94,0.33
+Africa,South Africa,2019,4.72,0.96,0.47
+Africa,South Sudan,2016,3.83,0.39,0.16
+Africa,South Sudan,2017,3.59,0.40,0.16
+Africa,South Sudan,2018,3.25,0.34,0.18
+Africa,South Sudan,2019,2.85,0.31,0.30
+Africa,Sudan,2015,4.55,1.01,0.10
+Africa,Sudan,2016,4.14,0.63,0.30
+Africa,Sudan,2017,4.14,0.66,0.29
+Africa,Sudan,2018,4.14,0.61,0.31
+Africa,Swaziland,2015,4.87,1.07,0.31
+Africa,Swaziland,2019,4.21,0.81,0.00
+Africa,Tanzania,2015,3.78,1.00,0.33
+Africa,Tanzania,2016,3.67,0.47,0.36
+Africa,Tanzania,2017,3.35,0.51,0.36
+Africa,Tanzania,2018,3.30,0.46,0.38
+Africa,Tanzania,2019,3.23,0.48,0.50
+Africa,Togo,2015,2.84,0.14,0.36
+Africa,Togo,2016,3.30,0.28,0.25
+Africa,Togo,2017,3.49,0.31,0.25
+Africa,Togo,2018,4.00,0.26,0.25
+Africa,Togo,2019,4.09,0.28,0.41
+Africa,Tunisia,2015,4.74,0.60,0.26
+Africa,Tunisia,2016,5.05,0.98,0.60
+Africa,Tunisia,2017,4.80,1.01,0.61
+Africa,Tunisia,2018,4.59,0.90,0.69
+Africa,Tunisia,2019,4.46,0.92,0.82
+Africa,Uganda,2015,3.93,1.13,0.46
+Africa,Uganda,2016,3.74,0.35,0.20
+Africa,Uganda,2017,4.08,0.38,0.22
+Africa,Uganda,2018,4.16,0.32,0.24
+Africa,Uganda,2019,4.19,0.33,0.44
+Africa,Zambia,2015,5.13,0.92,0.49
+Africa,Zambia,2016,4.80,0.61,0.24
+Africa,Zambia,2017,4.51,0.64,0.26
+Africa,Zambia,2018,4.38,0.56,0.30
+Africa,Zambia,2019,4.11,0.58,0.43
+Africa,Zimbabwe,2015,4.61,1.03,0.26
+Africa,Zimbabwe,2016,4.19,0.35,0.16
+Africa,Zimbabwe,2017,3.88,0.38,0.20
+Africa,Zimbabwe,2018,3.69,0.36,0.25
+Africa,Zimbabwe,2019,3.66,0.37,0.43
+Asia,Afghanistan,2015,3.58,0.30,0.23
+Asia,Afghanistan,2016,3.36,0.38,0.17
+Asia,Afghanistan,2017,3.79,0.40,0.18
+Asia,Afghanistan,2018,3.63,0.33,0.26
+Asia,Afghanistan,2019,3.20,0.35,0.36
+Europe,Armenia,2015,4.35,0.78,0.20
+Europe,Armenia,2016,4.36,0.86,0.64
+Europe,Armenia,2017,4.38,0.90,0.64
+Europe,Armenia,2018,4.32,0.82,0.67
+Europe,Armenia,2019,4.56,0.85,0.82
+Asia,Azerbaijan,2015,5.21,0.94,0.37
+Asia,Azerbaijan,2016,5.29,1.12,0.55
+Asia,Azerbaijan,2017,5.23,1.15,0.54
+Asia,Azerbaijan,2018,5.20,1.02,0.60
+Asia,Azerbaijan,2019,5.21,1.04,0.77
+Asia,Bahrain,2015,5.96,1.22,0.45
+Asia,Bahrain,2016,6.22,1.44,0.66
+Asia,Bahrain,2017,6.09,1.49,0.65
+Asia,Bahrain,2018,6.11,1.34,0.70
+Asia,Bahrain,2019,6.20,1.36,0.87
+Asia,Bangladesh,2015,4.69,0.43,0.41
+Asia,Bangladesh,2016,4.64,0.54,0.53
+Asia,Bangladesh,2017,4.61,0.59,0.53
+Asia,Bangladesh,2018,4.50,0.53,0.58
+Asia,Bangladesh,2019,4.46,0.56,0.72
+Asia,Bhutan,2015,5.25,1.10,0.53
+Asia,Bhutan,2016,5.20,0.85,0.50
+Asia,Bhutan,2017,5.01,0.89,0.50
+Asia,Bhutan,2018,5.08,0.80,0.53
+Asia,Bhutan,2019,5.08,0.81,0.60
+Asia,Cambodia,2015,3.82,0.63,0.66
+Asia,Cambodia,2016,3.91,0.56,0.42
+Asia,Cambodia,2017,4.17,0.60,0.43
+Asia,Cambodia,2018,4.43,0.55,0.46
+Asia,Cambodia,2019,4.70,0.57,0.64
+Asia,China,2015,5.14,0.95,0.52
+Asia,China,2016,5.25,1.03,0.74
+Asia,China,2017,5.27,1.08,0.74
+Asia,China,2018,5.25,0.99,0.80
+Asia,China,2019,5.19,1.03,0.89
+Europe,Georgia,2015,4.30,0.39,0.41
+Europe,Georgia,2016,4.25,0.84,0.64
+Europe,Georgia,2017,4.29,0.95,0.65
+Europe,Georgia,2018,4.34,0.85,0.64
+Europe,Georgia,2019,4.52,0.89,0.75
+Asia,Hong Kong,2015,5.47,1.06,0.60
+Asia,Hong Kong,2016,5.46,1.51,0.95
+Asia,Hong Kong,2017,5.47,1.55,0.94
+Asia,Hong Kong,2018,5.43,1.41,1.03
+Asia,Hong Kong,2019,5.43,1.44,1.12
+Asia,India,2015,4.57,0.38,0.40
+Asia,India,2016,4.40,0.74,0.45
+Asia,India,2017,4.32,0.79,0.46
+Asia,India,2018,4.19,0.72,0.49
+Asia,India,2019,4.02,0.76,0.59
+Asia,Indonesia,2015,5.40,1.09,0.47
+Asia,Indonesia,2016,5.31,0.95,0.49
+Asia,Indonesia,2017,5.26,1.00,0.49
+Asia,Indonesia,2018,5.09,0.90,0.52
+Asia,Indonesia,2019,5.19,0.93,0.66
+Asia,Iran,2015,4.69,0.54,0.30
+Asia,Iran,2016,4.81,1.12,0.64
+Asia,Iran,2017,4.69,1.16,0.64
+Asia,Iran,2018,4.71,1.06,0.69
+Asia,Iran,2019,4.55,1.10,0.79
+Asia,Iraq,2015,4.68,0.82,0.00
+Asia,Iraq,2016,4.58,1.07,0.51
+Asia,Iraq,2017,4.50,1.10,0.50
+Asia,Iraq,2018,4.46,1.01,0.54
+Asia,Iraq,2019,4.44,1.04,0.57
+Asia,Israel,2015,7.28,1.22,0.41
+Asia,Israel,2016,7.27,1.34,0.85
+Asia,Israel,2017,7.21,1.38,0.84
+Asia,Israel,2018,6.81,1.30,0.88
+Asia,Israel,2019,7.14,1.28,1.03
+Asia,Japan,2015,5.99,1.26,0.50
+Asia,Japan,2016,5.92,1.38,0.91
+Asia,Japan,2017,5.92,1.42,0.91
+Asia,Japan,2018,5.92,1.29,0.99
+Asia,Japan,2019,5.89,1.33,1.09
+Asia,Jordan,2015,5.19,1.05,0.41
+Asia,Jordan,2016,5.30,1.00,0.61
+Asia,Jordan,2017,5.34,0.99,0.60
+Asia,Jordan,2018,5.16,0.82,0.65
+Asia,Jordan,2019,4.91,0.84,0.82
+Asia,Kazakhstan,2015,5.86,1.12,0.52
+Asia,Kazakhstan,2016,5.92,1.23,0.57
+Asia,Kazakhstan,2017,5.82,1.28,0.61
+Asia,Kazakhstan,2018,5.79,1.14,0.63
+Asia,Kazakhstan,2019,5.81,1.17,0.73
+Asia,Kuwait,2015,6.30,1.17,0.55
+Asia,Kuwait,2016,6.24,1.62,0.64
+Asia,Kuwait,2017,6.11,1.63,0.63
+Asia,Kuwait,2018,6.08,1.47,0.68
+Asia,Kuwait,2019,6.02,1.50,0.81
+Asia,Kyrgyzstan,2015,5.29,1.15,0.43
+Asia,Kyrgyzstan,2016,5.19,0.56,0.55
+Asia,Kyrgyzstan,2017,5.00,0.60,0.55
+Asia,Kyrgyzstan,2018,5.13,0.53,0.59
+Asia,Kyrgyzstan,2019,5.26,0.55,0.72
+Asia,Laos,2015,4.88,0.74,0.60
+Asia,Laos,2016,4.88,0.68,0.38
+Asia,Laos,2018,4.62,0.72,0.44
+Asia,Laos,2019,4.80,0.76,0.55
+Asia,Lebanon,2015,4.84,0.80,0.34
+Asia,Lebanon,2016,5.13,1.12,0.76
+Asia,Lebanon,2017,5.22,1.07,0.74
+Asia,Lebanon,2018,5.36,0.97,0.79
+Asia,Lebanon,2019,5.20,0.99,0.82
+Asia,Malaysia,2015,5.77,1.07,0.53
+Asia,Malaysia,2016,6.01,1.25,0.62
+Asia,Malaysia,2017,6.08,1.29,0.62
+Asia,Malaysia,2018,6.32,1.16,0.67
+Asia,Malaysia,2019,5.34,1.22,0.83
+Asia,Mongolia,2015,4.87,1.30,0.44
+Asia,Mongolia,2016,4.91,0.99,0.55
+Asia,Mongolia,2017,4.95,1.03,0.56
+Asia,Mongolia,2018,5.13,0.91,0.58
+Asia,Mongolia,2019,5.29,0.95,0.67
+Asia,Myanmar,2015,4.31,0.71,0.44
+Asia,Myanmar,2016,4.40,0.34,0.40
+Asia,Myanmar,2017,4.55,0.37,0.40
+Asia,Myanmar,2018,4.31,0.68,0.43
+Asia,Myanmar,2019,4.36,0.71,0.56
+Asia,Nepal,2015,4.51,0.86,0.38
+Asia,Nepal,2016,4.79,0.45,0.50
+Asia,Nepal,2017,4.96,0.48,0.50
+Asia,Nepal,2018,4.88,0.43,0.54
+Asia,Nepal,2019,4.91,0.45,0.68
+Asia,Oman,2015,6.85,1.08,0.63
+Asia,Pakistan,2015,5.19,0.41,0.12
+Asia,Pakistan,2016,5.13,0.69,0.40
+Asia,Pakistan,2017,5.27,0.73,0.40
+Asia,Pakistan,2018,5.47,0.65,0.42
+Asia,Pakistan,2019,5.65,0.68,0.54
+Asia,Palestine,2015,4.72,0.93,0.24
+Asia,Palestine,2016,4.75,0.67,0.57
+Asia,Palestine,2017,4.78,0.72,0.57
+Asia,Palestine,2018,4.74,0.64,0.60
+Asia,Palestine,2019,4.70,0.66,0.67
+Asia,Philippines,2015,5.07,1.04,0.63
+Asia,Philippines,2016,5.28,0.81,0.47
+Asia,Philippines,2017,5.43,0.86,0.47
+Asia,Philippines,2018,5.52,0.78,0.51
+Asia,Philippines,2019,5.63,0.81,0.66
+Asia,Qatar,2015,6.61,1.08,0.64
+Asia,Qatar,2016,6.38,1.82,0.72
+Asia,Qatar,2017,6.38,1.87,0.71
+Asia,Qatar,2018,6.37,1.65,0.75
+Asia,Qatar,2019,6.37,1.68,0.87
+Asia,Saudi Arabia,2015,6.41,1.08,0.31
+Asia,Saudi Arabia,2016,6.38,1.49,0.59
+Asia,Saudi Arabia,2017,6.34,1.53,0.59
+Asia,Saudi Arabia,2018,6.37,1.38,0.63
+Asia,Saudi Arabia,2019,6.38,1.40,0.80
+Asia,Singapore,2015,6.80,1.02,0.54
+Asia,Singapore,2016,6.74,1.65,0.95
+Asia,Singapore,2017,6.57,1.69,0.95
+Asia,Singapore,2018,6.34,1.53,1.01
+Asia,Singapore,2019,6.26,1.57,1.14
+Asia,South Korea,2015,5.98,0.96,0.33
+Asia,South Korea,2016,5.84,1.36,0.89
+Asia,South Korea,2017,5.84,1.40,0.90
+Asia,South Korea,2018,5.88,1.27,0.96
+Asia,South Korea,2019,5.90,1.30,1.04
+Asia,Sri Lanka,2015,4.27,1.02,0.54
+Asia,Sri Lanka,2016,4.42,0.97,0.62
+Asia,Sri Lanka,2017,4.44,1.01,0.63
+Asia,Sri Lanka,2018,4.47,0.92,0.67
+Asia,Sri Lanka,2019,4.37,0.95,0.83
+Asia,Syria,2015,3.01,0.47,0.16
+Asia,Syria,2016,3.07,0.75,0.63
+Asia,Syria,2017,3.46,0.78,0.50
+Asia,Syria,2018,3.46,0.69,0.54
+Asia,Syria,2019,3.46,0.62,0.44
+Asia,Taiwan,2015,6.30,1.08,0.40
+Asia,Taiwan,2016,6.38,1.40,0.80
+Asia,Taiwan,2018,6.44,1.37,0.86
+Asia,Taiwan,2019,6.45,1.37,0.91
+Asia,Taiwan,2017,6.42,1.43,0.79
+Asia,Tajikistan,2015,4.79,0.86,0.47
+Asia,Tajikistan,2016,5.00,0.49,0.53
+Asia,Tajikistan,2017,5.04,0.52,0.53
+Asia,Tajikistan,2018,5.20,0.47,0.60
+Asia,Tajikistan,2019,5.47,0.49,0.72
+Asia,Thailand,2015,6.46,1.27,0.56
+Asia,Thailand,2016,6.47,1.09,0.65
+Asia,Thailand,2017,6.42,1.13,0.65
+Asia,Thailand,2018,6.07,1.02,0.71
+Asia,Thailand,2019,6.01,1.05,0.83
+Asia,Turkey,2015,5.33,0.95,0.23
+Asia,Turkey,2016,5.39,1.16,0.65
+Asia,Turkey,2017,5.50,1.20,0.64
+Asia,Turkey,2018,5.48,1.15,0.69
+Asia,Turkey,2019,5.37,1.18,0.81
+Asia,Turkmenistan,2015,5.55,1.23,0.48
+Asia,Turkmenistan,2016,5.66,1.08,0.44
+Asia,Turkmenistan,2017,5.82,1.13,0.44
+Asia,Turkmenistan,2018,5.64,1.02,0.52
+Asia,Turkmenistan,2019,5.25,1.05,0.66
+Asia,United Arab Emirates,2015,6.90,1.13,0.64
+Asia,United Arab Emirates,2016,6.57,1.57,0.73
+Asia,United Arab Emirates,2017,6.65,1.63,0.73
+Asia,United Arab Emirates,2018,6.77,2.10,0.67
+Asia,United Arab Emirates,2019,6.83,1.50,0.83
+Asia,Uzbekistan,2015,6.00,1.34,0.66
+Asia,Uzbekistan,2016,5.99,0.74,0.50
+Asia,Uzbekistan,2017,5.97,0.79,0.50
+Asia,Uzbekistan,2018,6.10,0.72,0.61
+Asia,Uzbekistan,2019,6.17,0.75,0.76
+Asia,Vietnam,2015,5.36,0.91,0.59
+Asia,Vietnam,2016,5.06,0.74,0.66
+Asia,Vietnam,2017,5.07,0.79,0.65
+Asia,Vietnam,2018,5.10,0.72,0.70
+Asia,Vietnam,2019,5.18,0.74,0.85
+Asia,Yemen,2015,4.08,0.68,0.36
+Asia,Yemen,2016,3.72,0.58,0.31
+Asia,Yemen,2017,3.59,0.59,0.31
+Asia,Yemen,2018,3.36,0.44,0.34
+Asia,Yemen,2019,3.38,0.29,0.46
+Europe,Albania,2015,4.96,0.80,0.36
+Europe,Albania,2016,4.66,0.96,0.73
+Europe,Albania,2017,4.64,1.00,0.73
+Europe,Albania,2018,4.59,0.92,0.79
+Europe,Albania,2019,4.72,0.95,0.87
+Europe,Austria,2015,7.20,1.30,0.62
+Europe,Austria,2016,7.12,1.45,0.81
+Europe,Austria,2017,7.01,1.49,0.82
+Europe,Austria,2018,7.14,1.34,0.89
+Europe,Austria,2019,7.25,1.38,1.02
+Europe,Belarus,2015,5.81,1.23,0.38
+Europe,Belarus,2016,5.80,1.13,0.63
+Europe,Belarus,2017,5.57,1.16,0.64
+Europe,Belarus,2018,5.48,1.04,0.70
+Europe,Belarus,2019,5.32,1.07,0.79
+Europe,Belgium,2015,6.94,1.29,0.58
+Europe,Belgium,2016,6.93,1.43,0.82
+Europe,Belgium,2017,6.89,1.46,0.82
+Europe,Belgium,2018,6.93,1.32,0.89
+Europe,Belgium,2019,6.92,1.36,0.99
+Europe,Bosnia and Herzegovina,2015,4.95,0.92,0.09
+Europe,Bosnia and Herzegovina,2016,5.16,0.93,0.71
+Europe,Bosnia and Herzegovina,2017,5.18,0.98,0.71
+Europe,Bosnia and Herzegovina,2018,5.13,0.92,0.76
+Europe,Bosnia and Herzegovina,2019,5.39,0.95,0.85
+Europe,Bulgaria,2015,4.22,1.11,0.31
+Europe,Bulgaria,2016,4.22,1.11,0.68
+Europe,Bulgaria,2017,4.71,1.16,0.71
+Europe,Bulgaria,2018,4.93,1.05,0.71
+Europe,Bulgaria,2019,5.01,1.09,0.82
+Europe,Croatia,2015,5.76,0.80,0.26
+Europe,Croatia,2016,5.49,1.19,0.71
+Europe,Croatia,2017,5.29,1.22,0.70
+Europe,Croatia,2018,5.32,1.12,0.74
+Europe,Croatia,2019,5.43,1.16,0.91
+Europe,Cyprus,2015,5.69,0.89,0.41
+Europe,Cyprus,2016,5.55,1.32,0.85
+Europe,Cyprus,2017,5.62,1.36,0.84
+Europe,Cyprus,2018,5.76,1.23,0.91
+Europe,Cyprus,2019,6.05,1.26,1.04
+Europe,Czech Republic,2015,6.51,1.21,0.46
+Europe,Czech Republic,2016,6.60,1.31,0.76
+Europe,Czech Republic,2017,6.61,1.35,0.75
+Europe,Czech Republic,2018,6.71,1.23,0.85
+Europe,Czech Republic,2019,6.85,1.27,0.92
+Europe,Denmark,2015,7.53,1.36,0.65
+Europe,Denmark,2016,7.53,1.44,0.80
+Europe,Denmark,2017,7.52,1.48,0.79
+Europe,Denmark,2018,7.56,1.35,0.87
+Europe,Denmark,2019,7.60,1.38,1.00
+Europe,Estonia,2015,5.43,1.23,0.45
+Europe,Estonia,2016,5.52,1.28,0.68
+Europe,Estonia,2017,5.61,1.32,0.70
+Europe,Estonia,2018,5.74,1.20,0.74
+Europe,Estonia,2019,5.89,1.24,0.87
+Europe,Finland,2015,7.41,1.32,0.64
+Europe,Finland,2016,7.41,1.41,0.81
+Europe,Finland,2017,7.47,1.44,0.81
+Europe,Finland,2018,7.63,1.31,0.87
+Europe,Finland,2019,7.77,1.34,0.99
+Europe,France,2015,6.58,1.26,0.55
+Europe,France,2016,6.48,1.39,0.84
+Europe,France,2017,6.44,1.43,0.84
+Europe,France,2018,6.49,1.29,0.91
+Europe,France,2019,6.59,1.32,1.05
+Europe,Germany,2015,6.75,1.30,0.61
+Europe,Germany,2016,6.99,1.45,0.81
+Europe,Germany,2017,6.95,1.49,0.80
+Europe,Germany,2018,6.97,1.34,0.86
+Europe,Germany,2019,6.99,1.37,0.99
+Europe,Greece,2015,4.86,0.93,0.08
+Europe,Greece,2016,5.03,1.25,0.80
+Europe,Greece,2017,5.23,1.29,0.81
+Europe,Greece,2018,5.36,1.15,0.88
+Europe,Greece,2019,5.29,1.18,1.00
+Europe,Hungary,2015,4.80,1.20,0.32
+Europe,Hungary,2016,5.15,1.24,0.68
+Europe,Hungary,2017,5.32,1.29,0.69
+Europe,Hungary,2018,5.62,1.17,0.73
+Europe,Hungary,2019,5.76,1.20,0.83
+Europe,Iceland,2015,7.56,1.40,0.63
+Europe,Iceland,2016,7.50,1.43,0.87
+Europe,Iceland,2017,7.50,1.48,0.83
+Europe,Iceland,2018,7.50,1.34,0.91
+Europe,Iceland,2019,7.49,1.38,1.03
+Europe,Ireland,2015,6.94,1.37,0.62
+Europe,Ireland,2016,6.91,1.48,0.81
+Europe,Ireland,2017,6.98,1.54,0.81
+Europe,Ireland,2018,6.98,1.45,0.88
+Europe,Ireland,2019,7.02,1.50,1.00
+Europe,Italy,2015,5.95,1.20,0.26
+Europe,Italy,2016,5.98,1.35,0.85
+Europe,Italy,2017,5.96,1.40,0.85
+Europe,Italy,2018,6.00,1.26,0.95
+Europe,Italy,2019,6.22,1.29,1.04
+Europe,Kosovo,2015,5.59,0.81,0.25
+Europe,Kosovo,2016,5.40,0.90,0.54
+Europe,Kosovo,2017,5.28,0.95,0.54
+Europe,Kosovo,2018,5.66,0.86,0.58
+Europe,Kosovo,2019,6.10,0.88,0.76
+Europe,Latvia,2015,5.10,1.10,0.30
+Europe,Latvia,2016,5.56,1.22,0.64
+Europe,Latvia,2017,5.85,1.26,0.64
+Europe,Latvia,2018,5.93,1.15,0.67
+Europe,Latvia,2019,5.94,1.19,0.81
+Europe,Lithuania,2015,5.83,1.26,0.21
+Europe,Lithuania,2016,5.81,1.27,0.65
+Europe,Lithuania,2017,5.90,1.31,0.63
+Europe,Lithuania,2018,5.95,1.20,0.72
+Europe,Lithuania,2019,6.15,1.24,0.82
+Europe,Luxembourg,2015,6.95,1.22,0.62
+Europe,Luxembourg,2016,6.87,1.70,0.85
+Europe,Luxembourg,2017,6.86,1.74,0.85
+Europe,Luxembourg,2018,6.91,1.58,0.90
+Europe,Luxembourg,2019,7.09,1.61,1.01
+Europe,Macedonia,2015,5.01,1.00,0.33
+Europe,Macedonia,2016,5.12,1.02,0.65
+Europe,Macedonia,2017,5.18,1.06,0.64
+Europe,Macedonia,2018,5.19,0.96,0.69
+Europe,Malta,2015,6.30,1.30,0.60
+Europe,Malta,2016,6.49,1.31,0.80
+Europe,Malta,2017,6.53,1.34,0.82
+Europe,Malta,2018,6.63,1.27,0.88
+Europe,Malta,2019,6.73,1.30,1.00
+Europe,Moldova,2015,5.89,1.02,0.33
+Europe,Moldova,2016,5.90,0.69,0.52
+Europe,Moldova,2017,5.84,0.73,0.59
+Europe,Moldova,2018,5.64,0.66,0.62
+Europe,Moldova,2019,5.53,0.69,0.74
+Europe,Montenegro,2015,5.19,0.91,0.18
+Europe,Montenegro,2016,5.16,1.08,0.64
+Europe,Montenegro,2017,5.24,1.12,0.67
+Europe,Montenegro,2018,5.35,1.02,0.73
+Europe,Montenegro,2019,5.52,1.05,0.87
+Europe,Netherlands,2015,7.38,1.28,0.62
+Europe,Netherlands,2016,7.34,1.46,0.81
+Europe,Netherlands,2017,7.38,1.50,0.81
+Europe,Netherlands,2018,7.44,1.36,0.88
+Europe,Netherlands,2019,7.49,1.40,1.00
+Europe,North Macedonia,2019,5.27,0.98,0.84
+Europe,Northern Cyprus,2018,5.84,1.23,0.91
+Europe,Northern Cyprus,2019,5.72,1.26,1.04
+Europe,Norway,2015,7.52,1.33,0.67
+Europe,Norway,2016,7.50,1.58,0.80
+Europe,Norway,2017,7.54,1.62,0.80
+Europe,Norway,2018,7.59,1.46,0.86
+Europe,Norway,2019,7.55,1.49,1.03
+Europe,Poland,2015,5.79,1.28,0.53
+Europe,Poland,2016,5.84,1.25,0.69
+Europe,Poland,2017,5.97,1.29,0.70
+Europe,Poland,2018,6.12,1.18,0.78
+Europe,Poland,2019,6.18,1.21,0.88
+Europe,Portugal,2015,5.10,1.14,0.51
+Europe,Portugal,2016,5.12,1.28,0.79
+Europe,Portugal,2017,5.20,1.32,0.80
+Europe,Portugal,2018,5.41,1.19,0.88
+Europe,Portugal,2019,5.69,1.22,1.00
+Europe,Romania,2015,5.12,0.89,0.35
+Europe,Romania,2016,5.53,1.17,0.68
+Europe,Romania,2017,5.82,1.22,0.69
+Europe,Romania,2018,5.95,1.12,0.73
+Europe,Romania,2019,6.07,1.16,0.83
+Europe,Russia,2015,5.72,1.24,0.37
+Europe,Russia,2016,5.86,1.23,0.59
+Europe,Russia,2017,5.96,1.28,0.55
+Europe,Russia,2018,5.81,1.15,0.60
+Europe,Russia,2019,5.65,1.18,0.73
+Europe,Serbia,2015,5.12,1.01,0.20
+Europe,Serbia,2016,5.18,1.03,0.65
+Europe,Serbia,2017,5.39,1.07,0.65
+Europe,Serbia,2018,5.40,0.98,0.69
+Europe,Serbia,2019,5.60,1.00,0.85
+Europe,Slovakia,2015,6.00,1.27,0.32
+Europe,Slovakia,2016,6.08,1.28,0.70
+Europe,Slovakia,2017,6.10,1.33,0.71
+Europe,Slovakia,2018,6.17,1.21,0.78
+Europe,Slovakia,2019,6.20,1.25,0.88
+Europe,Slovenia,2015,5.85,1.27,0.61
+Europe,Slovenia,2016,5.77,1.30,0.79
+Europe,Slovenia,2017,5.76,1.34,0.79
+Europe,Slovenia,2018,5.95,1.22,0.86
+Europe,Slovenia,2019,6.12,1.26,0.95
+Europe,Spain,2015,6.33,1.31,0.46
+Europe,Spain,2016,6.36,1.34,0.88
+Europe,Spain,2017,6.40,1.38,0.89
+Europe,Spain,2018,6.31,1.25,0.97
+Europe,Spain,2019,6.35,1.29,1.06
+Europe,Sweden,2015,7.36,1.29,0.66
+Europe,Sweden,2016,7.29,1.45,0.83
+Europe,Sweden,2017,7.28,1.49,0.83
+Europe,Sweden,2018,7.31,1.36,0.91
+Europe,Sweden,2019,7.34,1.39,1.01
+Europe,Switzerland,2015,7.59,1.35,0.67
+Europe,Switzerland,2016,7.51,1.53,0.86
+Europe,Switzerland,2017,7.49,1.56,0.86
+Europe,Switzerland,2018,7.49,1.42,0.93
+Europe,Switzerland,2019,7.48,1.45,1.05
+Europe,Ukraine,2015,4.68,1.20,0.25
+Europe,Ukraine,2016,4.32,0.87,0.59
+Europe,Ukraine,2017,4.10,0.89,0.58
+Europe,Ukraine,2018,4.10,0.79,0.61
+Europe,Ukraine,2019,4.33,0.82,0.74
+Europe,United Kingdom,2015,6.87,1.29,0.60
+Europe,United Kingdom,2016,6.73,1.40,0.81
+Europe,United Kingdom,2017,6.71,1.44,0.81
+Europe,United Kingdom,2018,7.19,1.24,0.89
+Europe,United Kingdom,2019,7.05,1.33,1.00
+NorthAmerica,Canada,2015,7.43,1.32,0.63
+NorthAmerica,Canada,2016,7.40,1.44,0.83
+NorthAmerica,Canada,2017,7.32,1.48,0.83
+NorthAmerica,Canada,2018,7.33,1.33,0.90
+NorthAmerica,Canada,2019,7.28,1.37,1.04
+NorthAmerica,Costa Rica,2015,7.23,1.24,0.63
+NorthAmerica,Costa Rica,2016,7.09,1.07,0.76
+NorthAmerica,Costa Rica,2017,7.08,1.11,0.76
+NorthAmerica,Costa Rica,2018,7.07,1.01,0.82
+NorthAmerica,Costa Rica,2019,7.17,1.03,0.96
+NorthAmerica,Dominican Republic,2015,4.89,1.17,0.58
+NorthAmerica,Dominican Republic,2016,5.16,1.03,0.58
+NorthAmerica,Dominican Republic,2017,5.23,1.08,0.57
+NorthAmerica,Dominican Republic,2018,5.30,0.98,0.61
+NorthAmerica,Dominican Republic,2019,5.43,1.02,0.78
+NorthAmerica,El Salvador,2015,6.13,1.03,0.40
+NorthAmerica,El Salvador,2016,6.07,0.87,0.60
+NorthAmerica,El Salvador,2017,6.00,0.91,0.60
+NorthAmerica,El Salvador,2018,6.17,0.81,0.64
+NorthAmerica,El Salvador,2019,6.25,0.79,0.79
+NorthAmerica,Guatemala,2015,6.12,1.04,0.58
+NorthAmerica,Guatemala,2016,6.32,0.83,0.54
+NorthAmerica,Guatemala,2017,6.45,0.87,0.54
+NorthAmerica,Guatemala,2018,6.38,0.78,0.61
+NorthAmerica,Guatemala,2019,6.44,0.80,0.75
+NorthAmerica,Haiti,2015,4.52,0.74,0.24
+NorthAmerica,Haiti,2016,4.03,0.34,0.27
+NorthAmerica,Haiti,2017,3.60,0.37,0.28
+NorthAmerica,Haiti,2018,3.58,0.32,0.29
+NorthAmerica,Haiti,2019,3.60,0.32,0.45
+NorthAmerica,Honduras,2015,4.79,0.95,0.40
+NorthAmerica,Honduras,2016,4.87,0.69,0.58
+NorthAmerica,Honduras,2017,5.18,0.73,0.58
+NorthAmerica,Honduras,2018,5.50,0.62,0.62
+NorthAmerica,Honduras,2019,5.86,0.64,0.83
+NorthAmerica,Jamaica,2015,5.71,1.15,0.50
+NorthAmerica,Jamaica,2016,5.51,0.89,0.59
+NorthAmerica,Jamaica,2017,5.31,0.93,0.64
+NorthAmerica,Jamaica,2018,5.89,0.82,0.69
+NorthAmerica,Jamaica,2019,5.89,0.83,0.83
+NorthAmerica,Mexico,2015,7.19,0.91,0.48
+NorthAmerica,Mexico,2016,6.78,1.12,0.71
+NorthAmerica,Mexico,2017,6.58,1.15,0.71
+NorthAmerica,Mexico,2018,6.49,1.04,0.76
+NorthAmerica,Mexico,2019,6.60,1.07,0.86
+NorthAmerica,Nicaragua,2015,5.83,1.14,0.55
+NorthAmerica,Nicaragua,2016,5.99,0.69,0.65
+NorthAmerica,Nicaragua,2017,6.07,0.74,0.65
+NorthAmerica,Nicaragua,2018,6.14,0.67,0.70
+NorthAmerica,Nicaragua,2019,6.11,0.69,0.84
+NorthAmerica,Panama,2015,6.79,1.20,0.54
+NorthAmerica,Panama,2016,6.70,1.18,0.71
+NorthAmerica,Panama,2017,6.45,1.23,0.71
+NorthAmerica,Panama,2018,6.43,1.11,0.76
+NorthAmerica,Panama,2019,6.32,1.15,0.91
+NorthAmerica,Puerto Rico,2016,7.04,1.36,0.78
+NorthAmerica,Trinidad & Tobago,2018,6.19,1.22,0.56
+NorthAmerica,Trinidad & Tobago,2019,6.19,1.23,0.71
+NorthAmerica,Trinidad and Tobago,2015,6.17,1.18,0.56
+NorthAmerica,Trinidad and Tobago,2016,6.17,1.33,0.53
+NorthAmerica,Trinidad and Tobago,2017,6.17,1.36,0.52
+NorthAmerica,United States,2015,7.12,1.25,0.55
+NorthAmerica,United States,2016,7.10,1.51,0.78
+NorthAmerica,United States,2017,6.99,1.55,0.77
+NorthAmerica,United States,2018,6.89,1.40,0.82
+NorthAmerica,United States,2019,6.89,1.43,0.87
+Oceania,Australia,2015,7.28,1.31,0.65
+Oceania,Australia,2016,7.31,1.44,0.85
+Oceania,Australia,2017,7.28,1.48,0.84
+Oceania,Australia,2018,7.27,1.34,0.91
+Oceania,Australia,2019,7.23,1.37,1.04
+Oceania,New Zealand,2015,7.29,1.32,0.64
+Oceania,New Zealand,2016,7.33,1.36,0.83
+Oceania,New Zealand,2017,7.31,1.41,0.82
+Oceania,New Zealand,2018,7.32,1.27,0.88
+Oceania,New Zealand,2019,7.31,1.30,1.03
+SouthAmerica,Argentina,2015,6.57,1.25,0.45
+SouthAmerica,Argentina,2016,6.65,1.15,0.70
+SouthAmerica,Argentina,2017,6.60,1.19,0.70
+SouthAmerica,Argentina,2018,6.39,1.07,0.74
+SouthAmerica,Argentina,2019,6.09,1.09,0.88
+SouthAmerica,Bolivia,2015,5.89,0.98,0.57
+SouthAmerica,Bolivia,2016,5.82,0.79,0.47
+SouthAmerica,Bolivia,2017,5.82,0.83,0.47
+SouthAmerica,Bolivia,2018,5.75,0.75,0.51
+SouthAmerica,Bolivia,2019,5.78,0.78,0.71
+SouthAmerica,Brazil,2015,6.98,1.23,0.49
+SouthAmerica,Brazil,2016,6.95,1.09,0.61
+SouthAmerica,Brazil,2017,6.64,1.11,0.62
+SouthAmerica,Brazil,2018,6.42,0.99,0.68
+SouthAmerica,Brazil,2019,6.30,1.00,0.80
+SouthAmerica,Chile,2015,6.67,1.12,0.44
+SouthAmerica,Chile,2016,6.71,1.22,0.82
+SouthAmerica,Chile,2017,6.65,1.25,0.82
+SouthAmerica,Chile,2018,6.48,1.13,0.81
+SouthAmerica,Chile,2019,6.44,1.16,0.92
+SouthAmerica,Colombia,2015,6.48,1.24,0.53
+SouthAmerica,Colombia,2016,6.48,1.03,0.60
+SouthAmerica,Colombia,2017,6.36,1.07,0.60
+SouthAmerica,Colombia,2018,6.26,0.96,0.64
+SouthAmerica,Colombia,2019,6.13,0.99,0.84
+SouthAmerica,Ecuador,2015,5.98,1.00,0.49
+SouthAmerica,Ecuador,2016,5.98,0.97,0.69
+SouthAmerica,Ecuador,2017,6.01,1.00,0.69
+SouthAmerica,Ecuador,2018,5.97,0.89,0.74
+SouthAmerica,Ecuador,2019,6.03,0.91,0.87
+SouthAmerica,Paraguay,2015,5.88,1.30,0.54
+SouthAmerica,Paraguay,2016,5.54,0.89,0.58
+SouthAmerica,Paraguay,2017,5.49,0.93,0.58
+SouthAmerica,Paraguay,2018,5.68,0.84,0.62
+SouthAmerica,Paraguay,2019,5.74,0.86,0.78
+SouthAmerica,Peru,2015,5.82,0.97,0.41
+SouthAmerica,Peru,2016,5.74,1.00,0.63
+SouthAmerica,Peru,2017,5.72,1.04,0.63
+SouthAmerica,Peru,2018,5.66,0.93,0.67
+SouthAmerica,Peru,2019,5.70,0.96,0.85
+SouthAmerica,Suriname,2015,6.27,0.97,0.60
+SouthAmerica,Suriname,2016,6.27,1.10,0.51
+SouthAmerica,Uruguay,2015,6.49,1.21,0.60
+SouthAmerica,Uruguay,2016,6.55,1.18,0.72
+SouthAmerica,Uruguay,2017,6.45,1.22,0.72
+SouthAmerica,Uruguay,2018,6.38,1.09,0.77
+SouthAmerica,Uruguay,2019,6.29,1.12,0.89
+SouthAmerica,Venezuela,2015,6.81,1.26,0.43
+SouthAmerica,Venezuela,2016,6.08,1.13,0.62
+SouthAmerica,Venezuela,2017,5.25,1.13,0.62
+SouthAmerica,Venezuela,2018,4.81,1.00,0.66
+SouthAmerica,Venezuela,2019,4.71,0.96,0.81

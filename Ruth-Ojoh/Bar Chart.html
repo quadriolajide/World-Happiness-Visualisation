@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <script src="https://d3js.org/d3.v7.min.js"></script>
+  <meta charset="utf-8">
+  <title>Bar Chart Visualisation</title>
+  <style>
+
+    /* Define the styles of the chart */
+    body {font-family: Helvetica, sans-serif;;
+          border: 2px solid black;
+          text-align: center}
+    div {font-size: small;}
+    .bar:hover[data-continent="Africa"] {fill: #1f77b4; /* set color for Africa */}
+    .bar:hover[data-continent="SouthAmerica"] {fill: #ff7f0e; /* set color for South America */}
+    .bar:hover[data-continent="NorthAmerica"] { fill: #2ca02c; /* set color for North America */}
+    .bar:hover[data-continent="Asia"] {fill: #d62728; /* set color for Asia */}
+    .bar:hover[data-continent="Europe"] {fill: #9467bd; /* set color for Europe */}
+    .bar:hover[data-continent="Oceania"] {fill: #8c564b; /* set color for Oceania */}
+    .tooltip {position: absolute;
+              padding: 6px;
+              background-color: rgba(0, 0, 0, 0.8);
+              color: #fff;
+              font-size: small;
+              border-radius: 2px;
+              pointer-events: none;}
+    #student-details {
+              border: 1px solid black;
+              width: 100%;
+              background-color: orange;}
+    #chart-description {
+              position: absolute;
+              top: 100px;
+              left: 50px;
+              width: 300px;
+              height: auto;
+              background-color: rgb(255, 255, 255);
+              border: 1px solid gray;
+              padding: 10px;
+              font-size: 10px;
+              line-height: 1.5;
+              text-align: justify;}
+  </style>
+</head>
+<body>
+
+   <nav><a href="http://127.0.0.1:5500/World%20Happiness.html">Back</a></nav>
+   <section id="student-details">
+    <p>Quadri Olajide | B1878648 </p>
+   </section>
+
+  <!-- Display options for the user to choose from -->
+  <h2> Bar Chart</h2>
+  <div>
+    <input type="radio" id="happiness-score" name="data-type" value="Happiness_Score" checked>
+    <label for="happiness-score">Happiness Score</label>
+    <input type="radio" id="gdp" name="data-type" value="GDP">
+    <label for="gdp">GDP</label>
+    <input type="radio" id="life-expectancy" name="data-type" value="Life_Expectancy">
+    <label for="life-expectancy">Life Expectancy</label>
+  </div>
+
+  <select id="year-select"></select>
+  <div class="tooltip"></div>
+  <div id="chart"></div>
+  
+  <script>
+     /* Define the SVG Canvas */
+    const margin = { top: 20, right: 20, bottom: 70, left: 40 };
+    const width = 600 - margin.left - margin.right;
+    const height = 500 - margin.top - margin.bottom;
+
+    const svg = d3.select("#chart")
+                  .append("svg")
+                  .attr("width", width + margin.left + margin.right)
+                  .attr("height", height + margin.top + margin.bottom)
+                  .append("g")
+                  .attr("transform", `translate(${margin.left},${margin.top})`);
+
+     /* Create the axes and scales*/
+    const x = d3.scaleBand().range([0, width]).padding(0.2);
+    const y = d3.scaleLinear().range([height, 0]);
+    
+
+    const xAxis = d3.axisBottom(x);
+    const yAxis = d3.axisLeft(y);
+
+     /* Group the chart elements */
+    svg.append("g")
+       .attr("class", "x-axis")
+       .attr("transform", `translate(0,${height})`);
+
+    svg.append("g")
+       .attr("class", "y-axis");
+
+     /* Define the tooltip and other variables */   
+    const tooltip = d3.select(".tooltip");
+
+    const data = d3.csv("Bar Chart.csv").then(data => {
+    const years = data.map(d => d.Year);
+    const uniqueYears = [...new Set(years)];
+
+    d3.select("#year-select")
+      .selectAll("option")
+      .data(uniqueYears)
+      .enter()
+      .append("option")
+      .text(d => d)
+      .property("selected", d => d === 2015)
+      .attr("value", d => d);
+
+    
+    const updateChart = (selectedYear, selectedData) => {
+    const filteredData = data.filter(d => d.Year === selectedYear);
+    x.domain(filteredData.map(d => d.Continent));
+    y.domain([0, d3.max(filteredData, d => d[selectedData])]).nice();
+
+    const color = d3.scaleOrdinal().domain(["Africa", "SouthAmerica", "NorthAmerica","Asia", "Europe", "Oceania"])
+                    .range(d3.schemeCategory10);
+
+    svg.select(".x-axis")
+       .call(xAxis)
+       .selectAll("text")
+       .attr("transform", "rotate(-45)")
+       .style("text-anchor", "end")
+       .attr("dx", "-.8em")
+       .attr("dy", ".15em");
+
+    svg.select(".y-axis")
+       .transition().duration(500)
+       .call(yAxis);
+
+   /* Define the tooltip and other variables */   
+    const bars = svg.selectAll(".bar")
+                    .data(filteredData);
+
+          bars.enter()
+            .append("rect")
+            .attr("class", "bar")
+            .attr("x", d => x(d.Continent))
+            .attr("y", height)
+            .attr("width", x.bandwidth())
+            .attr("height", 0)
+            .attr("data-continent", d => d.Continent) // add data-continent attribute
+            .merge(bars)
+            .transition()
+            .duration(1000)
+            .attr("x", d => x(d.Continent))
+            .attr("y", d => y(d[selectedData]))
+            .attr("width", x.bandwidth())
+            .attr("height", d => height - y(d[selectedData]))
+            .attr("fill", "orange");
+
+          bars.on("mouseover", function(event, d) {
+          d3.select(this)
+            .attr("fill", d => color(d.Continent)) // Change color on hover
+            .attr("width", x.bandwidth() + 20) // Increase width
+            .attr("height", height - y(d[selectedData]) + 5); // Increase height
+          tooltip.html(`${d.Continent}: ${d[selectedData]}`)
+            .style("left", event.pageX + "px")
+            .style("top", event.pageY - 28 + "px")
+            .transition()
+            .duration(200)
+            .style("opacity", 1) })
+          bars.exit().remove();
+
+    svg.selectAll(".bar")
+       .on("mouseover", function (event, d) {
+    tooltip.style("left", event.pageX + 10 + "px")
+          .style("top", event.pageY + 10 + "px")
+          .style("display", "inline-block")
+          .html(`${d.Continent} (${d.Year})<br>${selectedData}: ${d[selectedData]}`); })
+          .on("mouseout", function (d) {
+    tooltip.style("display", "none");}); };
+
+    updateChart(2015, "Happiness_Score");
+
+    d3.selectAll('input[name="data-type"]').on("change", function () {
+      const selectedData = this.value;
+      const selectedYear = d3.select("#year-select").property("value");
+
+      updateChart(selectedYear, selectedData);});
+
+    d3.select("#year-select").on("change", function () {
+      const selectedYear = this.value;
+      const selectedData = d3.select('input[name="data-type"]:checked').property("value");
+
+      updateChart(selectedYear, selectedData);}) });
+
+</script>
+<section id="chart-description">
+    This bar chart displays the averages on various continents' happiness score, life expectancy, and GDP. The user can select 
+    the type of data they wish to display using radio buttons and choose the year for which they want to see the data 
+    using the dropdown list. The bars are color-coded according to the continent they represent. 
+    Hovering over the bars displays the specific data value for each continent.
+</section>
+</body>
+</html>

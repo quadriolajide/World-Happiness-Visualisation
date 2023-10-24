@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Scatter Plot</title>
+  <!-- Import D3.js library -->
+  <script src="https://d3js.org/d3.v7.min.js" charset="utf-8"></script>
+  <style>
+  /* Define CSS styles for the page */
+  body {font-family: Helvetica, sans-serif;;
+          border: 2px solid black;
+          text-align: center}
+  div {font-size: small;}
+  .tooltip {position: absolute;
+            padding: 6px;
+            background-color: rgba(0, 0, 0, 0.8);
+            color: #fff;
+            font-size: small;
+            border-radius: 2px;
+            pointer-events: none; }
+  #student-details {border: 1px solid black;
+                    width: 100%;
+                    background-color: orange}
+  #chart-description {
+                position: absolute;
+                top: 100px;
+                left: 50px;
+                width: 300px;
+                height: auto;
+                background-color: rgb(255, 255, 255);
+                border: 1px solid gray;
+                padding: 10px;
+                font-size: 10px;
+                line-height: 1.5;
+                text-align: justify;}
+    </style>
+  </head>
+  <body>
+    <nav><a href="http://127.0.0.1:5500/World%20Happiness.html">Back</a></nav>
+   <section id="student-details">
+    <p>Quadri Olajide | B1878648 </p>
+   </section>
+    <div class= "year_option">
+      
+  <!-- Display options for the user to choose from -->
+   <h2> Scatter Plot</h2>
+   <div>
+    <label>Metric Score:</label>
+        <input id="GDP-radio" type="radio" name="xaxis-option" value="GDP" checked />
+        <label for="GDP-radio"> GDP</label>
+        <input id="expectancy-radio" type="radio" name="xaxis-option" value="Life_Expectancy" />
+        <label for="expectancy-radio">Life Expectancy</label> 
+    </div>
+   <label for="year_option">   Select Year: </label>
+      <select id="year_option" >
+        <option value = "2015">2015</option>
+        <option value = "2016">2016</option>
+        <option value = "2017">2017</option>
+        <option value = "2018">2018</option>
+        <option value = "2019">2019</option>
+      </select>
+     
+  <script>
+  <!-- Create the SVG container for the chart -->
+
+  d3.csv("Scatter Plot.csv", d3.autoType).then(ScatterPlot)
+  function ScatterPlot(data) {
+  const Data = data
+  const width = 800;
+  const height = 500;
+  const margin = {left: 50, right: 120, top: 50, bottom: 50}
+
+  // Define default values for the year and metric selection
+  let year = 2017;
+  let Metric = 'GDP';
+      
+  // Create the SVG container for the chart
+  const svg = d3.select('body')
+                .append("svg")
+                .attr("width", width)
+                .attr("height", height)
+                .append('g')
+                .attr('transform', 'translate('+margin.left+', '+margin.top+')');
+  //console.log(svg)
+           
+  // Create scales for the x and y axis
+  const xScale = d3.scaleLinear().range([0, width - margin.left - margin.right]);
+  const yScale = d3.scaleLinear().range([height- margin.top - margin.bottom, 0]);
+
+  // Create a color scale for the continent categories 
+  const colorScale = d3.scaleOrdinal()
+                       .domain(["Africa", "SouthAmerica", "NorthAmerica","Asia", "Europe", "Oceania"])
+                       .range(d3.schemeCategory10);
+        
+  // Create a tool tip
+  const tooltip = d3.select('body')
+                    .append('div')
+                    .attr('class', 'tooltip')
+                    .style('opacity', 0);
+
+  // Set the domain for the x and y scales based on the selected metric
+  xScale.domain(d3.extent(data, d => d[Metric]));
+  yScale.domain(d3.extent(data, d => d.Happiness_Score));
+
+  // Create x and y axis using d3 library and assign them to variables
+  let xAxis = d3.axisBottom(xScale);
+  const yAxis = d3.axisLeft(yScale);
+
+  //console.log('data', data)
+
+  //Append x and y axis to the svg element and apply transformations to position them
+  let groupXaxis = svg.append('g')  
+                      .attr("transform", `translate(0, ${height - margin.top - margin.bottom})`)
+                      .call(xAxis);
+
+  const groupYaxis = svg.append('g')
+                        .call(yAxis);
+      
+      
+  // Listen to the 'change' event of the element with ID 'year_option', and update the chart 
+  d3.select('#year_option')
+    .on('change', function(event){
+      year = this.value
+      console.log(year)
+  // Remove all existing circles and plot new chart for the selected year
+      d3.selectAll("circle").remove()
+      plotChart(year)
+    })
+  
+  // Listen to the 'change' event of all elements with name 'xaxis-option', and update the chart accordingly
+  d3.selectAll('[name="xaxis-option"]')
+    .on('change', function(event){   
+  d3.selectAll('[name="xaxis-option"]').attr('checked', null);
+  d3.select(this).attr('checked', '');
+
+  Metric = this.value
+  // Update the domain of xScale and redraw the x-axis
+  xScale.domain(d3.extent(data, d => d[Metric]));
+  groupXaxis.call(d3.axisBottom(xScale))
+
+  // Remove all existing circles and plot new chart using the updated metric for x-axis
+  d3.selectAll("circle").remove()
+  plotChart(year)  })
+
+  // Call the plotChart function to initially plot the chart
+  plotChart(year)
+
+  function plotChart(year){
+    let filteredData = data.filter(d => d.Year == year);
+    // Select all circles in the SVG and bind the filtered data to them
+    svg.selectAll("circle")
+       .data(filteredData)
+       .join(enter => enter
+       .append("circle")
+       .attr('class', d => d.Continent)
+       .attr("cx", d => xScale(d[Metric]))
+       .attr("cy", d => yScale(d.Happiness_Score))
+       .attr("r", 0)
+       .attr("fill", d => colorScale(d.Continent))
+       .call(enter => enter.transition()
+                          .duration(1000)
+                          .attr("r", 5)
+                          .attr("cx", d => xScale(d[Metric]))
+                          .attr("cy", d => yScale(d.Happiness_Score))),
+  update => update.call(update => update.transition()
+                          .duration(1000)
+                          .attr("r", 5)
+                          .attr("cx", d => xScale(d[Metric]))
+                          .attr("cy", d => yScale(d.Happiness_Score))),
+  exit => exit.call(exit => exit.transition()
+                          .duration(1000)
+                          .attr("r", 0)
+                          .remove()))
+  // Add a mouseover event to show a tooltip with information about the data point
+      .on('mouseover', (event, d) => {
+  tooltip.transition()
+      .duration(200)
+      .style('opacity', 0.9);
+  tooltip.html(`Country: ${d.Country}<br>Continent: ${d.Continent}<br>${Metric}: ${d[Metric]}<br>Happiness Score: ${d.Happiness_Score}`)
+      .style('left', `${event.pageX}px`)
+      .style('top', `${event.pageY - 28}px`);})
+      .on('mouseout', () => {
+  tooltip.transition()
+      .duration(500)
+      .style('opacity', 0);});
+
+  // Add a legend to the SVG
+  const legend = svg.append("g")
+                    .attr("transform", `translate(${width - margin.left - margin.right}, ${height/2 - margin.top - margin.bottom})`)
+
+      legend.selectAll('rect')
+            .data(colorScale.domain())
+            .enter()
+            .append("rect")
+            .attr("width", 15)
+            .attr("height", 15)
+            .attr("transform", (d, i) => `translate(0, ${i * 20})`)
+            .attr("fill", colorScale);
+
+      legend.selectAll('rect')
+            .on('mouseover', (event, d) => {
+      svg.selectAll('circle')
+         .style('opacity', 0.1);
+      svg.selectAll(`circle.${d}`)
+         .style('opacity', 1); })
+         .on('mouseout', () => {
+      svg.selectAll('circle')
+         .style('opacity', 1); });
+
+      legend.selectAll('text')
+            .data(colorScale.domain())
+            .enter()
+            .append("text")
+            .text(d => d)
+            .attr("transform", (d, i) => `translate(20, ${i * 20 + 12})`)
+            .attr("font-size", "12px")
+            .attr("font-family", "sans-serif")
+            .attr("fill", "black")
+            .attr("fill", colorScale);
+  // Add a mousemove event to show a tooltip on mouseover of the data points
+
+      svg.selectAll("circle")
+         .on('mousemove', function(event, d){
+      const x = event.pageX;
+      const y = event.pageY;
+
+      tooltip.html(`<div>Country: ${d.Country}</div><div>${Metric}: ${d[Metric]}</div><div>Happiness Score: ${d.Happiness_Score}</div>`)
+              .style('left', x + 'px')
+              .style('top', y + 'px')
+              .style('display', 'block')
+              .style('position', 'absolute');})
+              .on('mouseout', function(event, d){
+      tooltip.style('display', 'none');})
+
+      d3.select('#xtitle').remove()
+
+  // Add text to x and y axis
+      groupXaxis.append("text")
+            .attr("class", "axis-label")
+            .attr('id', 'xtitle')
+            .attr("x", width / 2 - margin.left)
+            .attr("y", margin.bottom/2 + 5)
+            .text(Metric)
+            .attr('fill', 'black');
+
+      groupYaxis.append("text")
+            .attr("class", "axis-label")
+            .attr("transform", "rotate(-90)")
+            .attr("x", -(height/2 - margin.top - margin.bottom))
+            .attr("y", -30)
+            .text("Happiness Score")
+            .attr('fill', 'black'); }}
+</script>
+<section id = "chart-description">
+  <p>This scatter plot shows the relationship between GDP or Life Expectancy and 
+        Happiness Score for various countries in different years. 
+        The user can select a year and a metric to display on the x-axis. 
+        The chart updates dynamically based on the user's selections.
+  </p>
+</section>
+</body>
+   
+</html>
